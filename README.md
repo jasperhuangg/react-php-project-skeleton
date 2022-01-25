@@ -11,5 +11,5 @@
 1. Use Phil's instructions to SSH into the whatever EC2 instance we're deploying to.
 2. In `CONST.js`, change the `HOST` variable to be an empty string `''`.
 3. In the `app` directory run `npm run build`. If you were already running `npm run watch` this shouldn't be necessary, but better safe than sorry.
-4. This is kinda jank, but open up the root directory of your local git repo in Finder. Drag `./app/assets` (this is the production build of the React front-end) into the `app` folder in your sidebar of the SSH'd window. Also drag over any relevant PHP files that were updated.
+4. This is kinda jank, but open up the root directory of your local git repo in Finder (or whatever file browser your OS uses). Drag `./app/assets` (this is the production build of the React front-end) into the `app` folder in your sidebar of the SSH'd window. Also drag over any relevant PHP files that were updated.
 5. Navigate to the EC2 URL (i.e. http://ec2-3-101-31-127.us-west-1.compute.amazonaws.com/). Your changes should be there.
