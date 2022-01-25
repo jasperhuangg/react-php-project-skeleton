@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import FunctionalComponent from "./components/FunctionalComponent";
+import CONST from './CONST';
 
 class App extends Component {
 
   componentDidMount() {
-    const URL = 'http://localhost:8888/api.php?command=TestCommandAsdf';
+    const URL = `api.php?command=TestCommandAsdf`;
     const postBody = {
         type: "hot",
         limit: 10
