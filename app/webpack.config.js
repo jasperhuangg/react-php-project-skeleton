@@ -69,9 +69,6 @@ let config = {
       }
     ]
   },
-  externals: {
-    objectDefinedInPHP: 'objectDefinedInPHP',
-  },
   plugins: [
     new ExtractTextPlugin(path.join('..', 'css', 'index.css')),
   ],
