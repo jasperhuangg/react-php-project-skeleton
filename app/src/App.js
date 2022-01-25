@@ -5,7 +5,7 @@ import CONST from './CONST';
 class App extends Component {
 
   componentDidMount() {
-    const URL = `api.php?command=TestCommandAsdf`;
+    const URL = `${CONST.HOST}api.php?command=TestCommandAsdf`;
     const postBody = {
         type: "hot",
         limit: 10
@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <div className="App">
         <header id="test">
-          <h1>Welcome to React</h1>
+          <h1>Welcome to React!!! HIIIII</h1>
         </header>
         <FunctionalComponent testprop={'I\'m a prop passed in from a parent!!'} />
       </div>

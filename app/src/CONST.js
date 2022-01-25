@@ -1,5 +1,5 @@
 const CONST = {
-  EC2_HOST: 'ec2-3-101-31-127.us-west-1.compute.amazonaws.com',
+  HOST: 'localhost:8888/', // set to empty string '' before building
 };
 
 export default CONST;
