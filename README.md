@@ -3,8 +3,8 @@
 2. In MAMP, click Preferences > Server > Choose. Select the root directory of this git repo (i.e. the directory this README file is located in).
 3. Next, navigate to the Ports tab. Ensure that your Apache port is set to 8888. Click OK.
 4. Select Apache as your web server and click Start.
-5. This should open up localhost:8888/MAMP in your browser. Navigate to locahost:8888. The React project should appear.
-6. Now in terminal in the `app` directory, run `npm run watch`. This instructs webpack to generate a build every time you hit save. You should see your changes in real time.
+5. This should open up localhost:8888/MAMP in your browser. Navigate to locahost:8888.
+6. Now in terminal in the `app` directory, run `npm run watch`. This instructs webpack to generate a build every time you hit save. You should see your changes in real time (make sure you run `npm install` first to install all the node_modules).
 7. Verify that the `HOST` variable in `CONST.js` is set to `'localhost:8888/'` (don't forget the slash).
 
 ### Deploying to EC2 (only ONE of us should do this at once with the MOST UP TO DATE version of the code)
