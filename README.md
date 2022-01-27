@@ -1,5 +1,5 @@
 ### Developing Locally (Steps 1-3 should only need to be done once)
-1. If you haven't already, download [MAMP](https://www.mamp.info/en/downloads/). Open MAMP, not MAMP Pro.
+1. Make sure you have node installed. If you haven't already, download [MAMP](https://www.mamp.info/en/downloads/). Open MAMP, not MAMP Pro.
 2. In MAMP, click Preferences > Server > Choose. Select the root directory of this git repo (i.e. the directory this README file is located in).
 3. Next, navigate to the Ports tab. Ensure that your Apache port is set to 8888. Click OK.
 4. Select Apache as your web server and click Start.
